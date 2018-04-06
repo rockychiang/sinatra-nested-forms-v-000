@@ -7,6 +7,11 @@ module FormsLab
       erb :new
     end
 
+
+    get "/" do 
+      erb :new
+    end
+    
     post "/show" do 
       
       
