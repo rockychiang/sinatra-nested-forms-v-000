@@ -19,6 +19,8 @@ module FormsLab
         Ship.new(ship)
       end
       
+      
+      
       erb :"pirates/show"
     end
 
