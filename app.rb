@@ -9,7 +9,7 @@ module FormsLab
 
 
     get "/new" do 
-      erb :new
+      erb :"piratesnew"
     end
     
     post "/show" do 
