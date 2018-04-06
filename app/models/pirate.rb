@@ -4,6 +4,7 @@ class Pirate
   
   def initialize(params)
     
+    @@all << self
   end
   
   def self.all
