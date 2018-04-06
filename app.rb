@@ -12,7 +12,7 @@ module FormsLab
       erb :"pirates/new"
     end
     
-    post "/show" do 
+    post "/pirates" do 
       @pirate = Pirate.new()
       
       erb :"pirates/show"
